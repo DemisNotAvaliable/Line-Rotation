@@ -1,0 +1,11 @@
+D:\Csharp Projects\Line Rotation\bin\Debug\Line Rotation.exe.config
+D:\Csharp Projects\Line Rotation\bin\Debug\Line Rotation.exe
+D:\Csharp Projects\Line Rotation\bin\Debug\Line Rotation.pdb
+D:\Csharp Projects\Line Rotation\obj\Debug\Line Rotation.csproj.AssemblyReference.cache
+D:\Csharp Projects\Line Rotation\obj\Debug\Line Rotation.csproj.SuggestedBindingRedirects.cache
+D:\Csharp Projects\Line Rotation\obj\Debug\Line_Rotation.Form1.resources
+D:\Csharp Projects\Line Rotation\obj\Debug\Line_Rotation.Properties.Resources.resources
+D:\Csharp Projects\Line Rotation\obj\Debug\Line Rotation.csproj.GenerateResource.cache
+D:\Csharp Projects\Line Rotation\obj\Debug\Line Rotation.csproj.CoreCompileInputs.cache
+D:\Csharp Projects\Line Rotation\obj\Debug\Line Rotation.exe
+D:\Csharp Projects\Line Rotation\obj\Debug\Line Rotation.pdb
