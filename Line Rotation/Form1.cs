@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,9 +12,24 @@ namespace Line_Rotation
 {
     public partial class Form1 : Form
     {
-        float angle = 0;
-        System.Timers.Timer timer = new System.Timers.Timer();
+        double angle = 0;
+        
+        # seconds needed to complete a full rotation
+        double rotTime = 2 ; # what you want
 
+        # how many times per second the line get mooved
+        double rotSteps = 360 ; # what you want
+
+        # amount of rotation that the line has to do, see Timer_Elapsed()
+        double rotAmount = Math.PI / rotSteps; 
+
+        # every how much time increment the angle?
+        double rotDelay = rotTime / rotSteps; 
+
+        rotDelay *= 1000;  # from seconds to milliseconds
+        
+        Timer timer = new(rotDelay); # The Timer
+        
         public Form1()
         {
             InitializeComponent();
@@ -26,7 +40,7 @@ namespace Line_Rotation
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
-            angle += 0.1f;
+            angle += rotAmount;
             pictureBox1.Invalidate();
         }
 
